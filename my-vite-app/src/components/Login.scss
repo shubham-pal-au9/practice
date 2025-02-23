@@ -1,0 +1,43 @@
+.main-login{
+    height: 40vh;
+    width: 40vw;
+    border: 1px solid #00000036;
+    border-radius: 15px;
+    position: relative;
+    top: 25%;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    left: 500px;
+    padding: 20px;
+    #login-title{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        font-family: initial;
+        font-size: 25px;
+    }
+    .login-content{
+        flex-direction: column;
+        display: flex;
+        padding: 40px 80px 80px 80px;
+        justify-content: space-between;
+
+        #username > input {
+            border-radius: 10px;
+            margin-left: 10px;
+        }
+        #password > input {
+            margin-top: 20px;
+            border-radius: 10px;
+            margin-left: 10px;
+        }
+        #password{
+            margin-top: 15px;
+        }
+        #loginBtn{
+            margin-top: 25px;
+        }
+        #loginBtn > button{
+            border-radius: 10px;
+        }
+    }
+}
